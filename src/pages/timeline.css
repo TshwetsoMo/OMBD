@@ -1,0 +1,72 @@
+.timeline-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-left: 250px;
+  background-image: url('../icons/OMDB Background.png'); /* Path to your image file */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: -10px;
+  margin-left: 80px;
+}
+
+button {
+  margin-right: 50px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  background-image: url('../icons/Search.png');
+  cursor: pointer;
+}
+
+button img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+.timeline-chart {
+  width: 80%;
+  max-width: 800px;
+  height: 400px;
+  margin-top: 20px;
+  position: relative;
+  border: #333 1px solid;  
+}
+
+.timeline-chart canvas {
+  width: 100% !important;
+  height: 100% !important;
+  color: white;
+}
+
+.timeline-chart .chartjs-tooltip {
+  background: rgba(255, 255, 255, 0.8);
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.timeline-chart:hover .chartjs-tooltip {
+  opacity: 1;
+}

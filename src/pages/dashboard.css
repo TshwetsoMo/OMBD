@@ -1,0 +1,86 @@
+.background {
+  width: 100%;
+  height: 100%; /* Adjust the height as needed */
+  background-image: url('../icons/OMDB Background.png'); /* Path to your image file */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  max-width: calc(100% - 250px); /* Adjust based on the sidebar width */
+  margin-left: 350px ;
+  padding: 20px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: white;
+}
+
+.h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: white;
+}
+
+.p {
+  font-size:large;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: left;
+}
+
+.dashboard-navigation {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  z-index: 1; /* Ensure the navbar is above the content */
+}
+
+.dashboard-navigation-item {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: solid black 3px;
+}
+
+.dashboard-navigation-item:hover {
+  border: solid 5px #333;
+}
+
+.dashboard-search {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.latest-movies-page{
+  margin-left: 200px;
+}
+
+.movie-list {
+  width: 100%; /* Adjusted to full width */
+  margin-left: -200px;
+}

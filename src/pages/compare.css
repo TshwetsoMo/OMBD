@@ -1,0 +1,126 @@
+
+.p{
+  color: white;
+  align-self: center;
+}
+
+.movie-comparison-page {
+  height: fit-content;
+  margin-left: 230px;
+  width: fit-content;
+  width: 1210px;; /* Adjust the width as needed */
+  background-image: url('../icons/OMDB Background.png'); /* Path to your image file */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}
+
+.chart-container {
+  margin: 40px;
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-container.circular {
+  border: 1px solid #ccc;
+  padding: 60px;
+  border-radius: 50%; /* Makes the border circular */
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  justify-content: center;
+}
+
+.chart-container.square {
+  border: 1px solid #ccc;
+  width: 600px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  padding: 60px;
+}
+
+.chart-container h2 {
+  color: white;
+  margin-top: 40px; /* Adds space between heading and chart */
+}
+
+.search-fields {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+
+.search-fields input {
+  border-radius: 25%; /* Adds 25% border-radius to the search fields */
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc; /* Optional: Add border for better visibility */
+  width: 200px; /* Adjust width as needed */
+}
+
+.search-fields .search-icon {
+  background-image: url('../icons/Search.png');
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-left: -30px; /* Adjust to align icon with input field */
+}
+
+.search-fields .search-icon img {
+  width: 20px; /* Adjust icon size as needed */
+  height: 20px; /* Adjust icon size as needed */
+  margin-left: 40px;
+}
+
+.versus {
+  margin-left: 10px; /* Adjust space as needed */
+  margin-right: 0px;
+  font-size: 25px; /* Adjust font size as needed */
+  color: white; /* Adjust color as needed */
+  text-decoration: underline; /* Adds underline to the text */
+  font-weight: bolder;
+}
+
+.section1 {
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  padding-left: 250px;
+  padding-top: 45px;
+  border-radius: 25%;
+}
+
+.section2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to next line */
+  justify-content: space-around; /* Adds space around items */
+}
+
+.circular-chart {
+  border: 1px solid #ccc;
+  border-radius: 50%; /* Makes the border circular */
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.square-chart {
+  border: 1px solid #ccc;
+  width: 600px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-fields button:hover {
+  background-color: #0056b3; /* Optional: Add hover effect */
+}
